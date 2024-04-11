@@ -1,9 +1,23 @@
 img{
-    width: 50%;
-    height: 125px;
+    width: 30vw;
+    height: 20vw;
+    border: 1vw solid white;
+    margin: 1vw;
+    object-fit:cover;
 }
 body {
-    font-size: 5vw;
+    color: brown;
+    font-size: 3vw;
     background-color: blanchedalmond;
-    padding: 4rem
+    padding: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.gallery img{
+width: 35vw;
+height:30vw;
+object-fit:cover;
+}
+th,
+td{
+    padding: 1vw;
 }
