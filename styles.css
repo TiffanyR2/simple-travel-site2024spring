@@ -4,6 +4,8 @@ img{
     border: 1vw solid white;
     margin: 1vw;
     object-fit:cover;
+    box-shadow: 1vw 1vw 2vw red;
+    
 }
 body {
     color: brown;
@@ -16,8 +18,35 @@ body {
 width: 35vw;
 height:30vw;
 object-fit:cover;
+padding: 0.5rem;
+box-shadow: 1vw 1vw 1vw black;
+
 }
 th,
 td{
-    padding: 1vw;
+    border: 1px solid;
+}
+article,
+nav{
+    margin: 2rem 0;
+}
+nav a{
+    text-decoration: none;
+    border: 2px;
+    border-radius: 1rem 2rem 3rem;
+    box-shadow: 1vw 1vw 2vw rgb(11, 10, 10);
+    padding: 1rem 2rem; 
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+   .welcome{
+    border: 1px solid black;
+    padding: 1rem; 
+    box-shadow: 1vw 1vw 1vw;
+   }
+.title{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: none;
+    font-size: 12vw;
+    text-decoration:underline;
 }
